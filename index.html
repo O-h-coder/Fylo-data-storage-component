@@ -4,28 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fylo data storage component</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="Style-Cheet/all.min.css">
+    <link rel="stylesheet" href="Style-Cheet/main.css" />
+    <link rel="stylesheet" href="Style-Cheet/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
       <div class="box1">
-        <i class="fa-solid fa-layer-group"></i>
-        <h1>Fylo</h1>
-        <div class="links">
-          <i class="fa-solid fa-file"></i>
-          <i class="fa-solid fa-folder"></i>
-          <i class="fa-solid fa-cloud-arrow-up"></i>
+        <div class="logo">
+          <img src="images/logo.svg" alt="Logo" />
         </div>
+        <ul>
+          <li class="LO1"><i class="fa-solid fa-file"></i></li>
+          <li class="LO2"><i class="fa-solid fa-folder"></i></li>
+          <li class="LO3"><i class="fa-solid fa-cloud-arrow-up"></i></li>
+        </ul>
       </div>
       <div class="box2">
-        <p>You’ve used 815 GB of your storage</p>
-        <span class="prog" data-progress="width: 81.5%;"> <!-- Progress Bar --> </span>
-        <div class="storage">
-          <p>185 GB Left</p>
-          <p>0 GB</p>
-          <p>1000 GB</p>
-        </div>
+        <p class="title-p">You’ve used 815 GB of your storage</p>
+        <span class="prog"></span>
+        <p class="first-counter">0 GB</p>
+        <p class="last-counter">1000 GB</p>
+        <p class="free-counter">185 <span>GB Left</span></p>
       </div>
     </div>
   </body>
