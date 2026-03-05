@@ -18,7 +18,7 @@ body {
   font-family: "Raleway";
   font-size: 14px;
 }
-@media (max-width: 1441px) {
+@media (min-width: 1441px) and (max-width: 1920px) {
   body {
     background-image: url("../images/bg-desktop.png");
     background-repeat: no-repeat;
@@ -135,7 +135,7 @@ ul li {
   font-size: 10px;
   font-weight: 300;
 }
-@media (min-width: 1441px) {
+@media (min-width: 320px) and (max-width: 1440px) {
   body {
     background-image: url("../images/bg-mobile.png");
     background-repeat: no-repeat;
