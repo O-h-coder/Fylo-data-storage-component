@@ -135,7 +135,7 @@ ul li {
   font-size: 10px;
   font-weight: 300;
 }
-@media (max-width: 1439px) {
+@media (min-width: 376px) and (max-width: 1439px) {
   body {
     background-image: url("../images/bg-mobile.png");
     background-repeat: no-repeat;
